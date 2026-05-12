@@ -1,0 +1,51 @@
+.contact-section h2{
+    text-align: center;
+    font-size: 36px;
+}
+.contact-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contact-wrapper h3{
+    font-weight: bold;
+    font-size: 28px;
+}
+.contact-wrapper p{
+    font-size: 18px;
+    color: gray;
+}
+.icon{
+    font-size: 30px;
+}
+.contact-wrapper span{
+    font-size: 20px;
+}
+@media (max-width : 768px){
+    .contact-wrapper {grid-template-columns: 1fr;}
+}
+.form-group{
+    margin-bottom: 1.5rem;
+}
+.form-group label{
+    display: block;
+    font-weight: 500;
+}
+.form-group input{
+    width: 100%;
+    border: 3px solid #e2e8f0;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.form-group textarea{
+    width: 100%;
+    border: 3px solid #e2e8f0;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.submit-btn{
+    width: 100%;
+    height: 60px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
